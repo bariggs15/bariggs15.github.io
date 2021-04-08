@@ -290,7 +290,7 @@ input {
 h1 {
 	text-transform: uppercase; /* We are capitalizing our headings */
     font-family:'Courier New', Courier, monospace; 
-    font-size: 3vw;
+    font-size: 5vw;
 	text-align: center;
 	margin-top: 3%; /* We are adding a small margin above the headings */
 	color: blue;
@@ -299,7 +299,7 @@ h1 {
 h2 {
 	text-transform: uppercase; /* We are capitalizing our headings */
     font-family: Verdana, Geneva, Tahoma, sans-serif; 
-    font-size: 2vw;
+    font-size: 3vw;
 	text-align: center;
 	margin-top: 1%; /* We are adding a small margin above the headings */
 	color: blue;
@@ -399,12 +399,15 @@ img:hover {
 
 /* The popup form - hidden by default */
 .form-popup {
-  border: 3px solid #f0f1f0;
-  z-index: 8;
-  display: none;
-  position: fixed;
-  bottom: 6px;
-  right: 6px;
+	border: 3px solid #f0f1f0;
+	z-index: 8;
+	display: none;
+	position: fixed;
+	bottom: 6px;
+	right: 6px;
+	background-color: lightskyblue;
+	font-weight: bold;
+	font-family: Helvetica, Avant Garde;
 }
 
 /* Form styling */
