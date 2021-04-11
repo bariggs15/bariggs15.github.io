@@ -35,3 +35,7 @@ function openForm() {
     dots[slideIndex-1].className += " active";
   }
   
+  function openResume(th)
+{
+    window.open(th.name, '_blank');
+}
